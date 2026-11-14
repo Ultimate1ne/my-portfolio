@@ -1,0 +1,154 @@
+body {
+    background-color: rgba(245, 222, 179, 0.405);  
+    flex-wrap: wrap;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 6px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav li {
+    list-style-type: none;
+}
+nav img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 150px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: 'Roboto';
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+main h2 {
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 6px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+}
+
+section .html, .css, .js, .react {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 200px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+section .html:hover {
+    box-shadow: 0 8px 32px rgba(219, 72, 3, 0.45);
+}
+
+section .css:hover {
+    box-shadow: 0 8px 32px rgba(3, 158, 219, 0.45);
+}
+
+section .js:hover {
+    box-shadow: 0 8px 32px rgba(245, 226, 18, 0.45);
+}
+
+section .react:hover {
+    box-shadow: 0 8px 32px rgba(109, 204, 242, 0.45);
+}
+
+section div img {
+    height: 100px;
+    width: 100px;
+}
+
+section div h3 {
+    font-family: 'Roboto';
+}
+
+.header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 15px;
+}
+
+.header-2 img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-2 h1 {
+    font-family: 'Roboto';
+}
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.section-2 .node-js, .database {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 15px;
+}
+
+.section-2 .node-js:hover {
+    box-shadow: 0 8px 32px rgba(97, 245, 102, 0.45);
+}
+
+.section-2 .database:hover {
+    box-shadow: 0 8px 32px rgba(9, 59, 78, 0.45);
+}
