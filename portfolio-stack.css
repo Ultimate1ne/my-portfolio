@@ -1,6 +1,5 @@
 body {
     background-color: rgba(245, 222, 179, 0.405);  
-    flex-wrap: wrap;
 }
 
 nav {
@@ -151,4 +150,53 @@ section div h3 {
 
 .section-2 .database:hover {
     box-shadow: 0 8px 32px rgba(9, 59, 78, 0.45);
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(81, 81, 81);
+    height: 200px;
+    /* border-radius: 20px; */
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    border-radius: 10px;
+}
+
+footer div h1 {
+    margin-left: 15px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+footer div p {
+    margin-left: 15px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+ hr {
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+footer .connect {
+    display: flex;
+}
+
+footer .connect img {
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+
+footer p {
+    font-family: 'Roboto';
+    margin-left: 15px;
+    font-weight: bold;
+    color: rgb(31, 31, 31);
 }
